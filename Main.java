@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Main {
 
@@ -43,6 +45,13 @@ public class Main {
             System.out.print(50 + (int)(Math.random() * 50) + " "); 		//Returns a random integer between 50 and 99.
         System.out.println();
 
+        //Date & Date Formatting
+        LocalDate currentDate = LocalDate.now();
+        System.out.println("Today's date: " + currentDate);	
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        String formattedDate = currentDate.format(formatter);
+        System.out.println("Formated date: " + formattedDate);
+
 
         String inString;
         Scanner sc = new Scanner(System.in);
@@ -52,6 +61,8 @@ public class Main {
             System.out.print("The value is valid. Enter another value: ");
             inString = sc.nextLine();
         } 
+
+
         System.out.println();
         sc.close();
     }
