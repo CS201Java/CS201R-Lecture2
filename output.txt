@@ -1,0 +1,6 @@
+Hello! Here are your 5 strings: 
+p,bunny,bugs,54,none
+p,sam,yosemite,68,none
+p,jones,bob,bb,none
+p,stefani,gwen,54,al,dog,bob,dog,carl,dog
+s,einstein,albert,143,4.9,none
