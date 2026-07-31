@@ -51,7 +51,8 @@ public class Main {
         System.out.println("\n\nExamples 4: Examples of Print Formatting");
         //formatting values for output
         double value = 16.404674;
-        System.out.printf("Value of 16.404674 formatted to 2 decimals is $%4.2f", value);
+        System.out.printf("Value of 16.404674 formatted to 2 decimals is $%4.2f\n", value);
+        System.out.printf("count is %d and amount is $%4.2f\n", 5, 14202.5676);
         System.out.printf("Extends widths automatically:  %3d#%2s#%4.2f\n", 1234, "Java", 51.6653);
         System.out.printf("Right justify by default:      %8d%8s%8.1f\n", 1234, "Java", 5.63);
         System.out.printf("Use - to Left justify:         %-8d%-8s%-8.1f \n", 1234, "Java", 5.63);
